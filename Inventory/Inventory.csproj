@@ -157,6 +157,14 @@
     <Compile Include="Migrations\201805251126318_InitialCreate.Designer.cs">
       <DependentUpon>201805251126318_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805251445554_Product.Name MaxLength 100.cs" />
+    <Compile Include="Migrations\201805251445554_Product.Name MaxLength 100.Designer.cs">
+      <DependentUpon>201805251445554_Product.Name MaxLength 100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805251451273_Product.Name Required.cs" />
+    <Compile Include="Migrations\201805251451273_Product.Name Required.Designer.cs">
+      <DependentUpon>201805251451273_Product.Name Required.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\InventoryContext.cs" />
     <Compile Include="Models\Product.cs" />
@@ -226,6 +234,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805251126318_InitialCreate.resx">
       <DependentUpon>201805251126318_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805251445554_Product.Name MaxLength 100.resx">
+      <DependentUpon>201805251445554_Product.Name MaxLength 100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805251451273_Product.Name Required.resx">
+      <DependentUpon>201805251451273_Product.Name Required.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
